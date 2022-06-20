@@ -12,7 +12,25 @@ public interface CheckItemService {
      */
     void add(CheckItem checkItem);
 
+    /**
+     * 删除检查项
+     * @param id
+     */
     void delete(Integer id);
+
+    /**
+     * 修改检查项
+     * @param checkItem
+     */
+    void update(CheckItem checkItem);
+
+    /**
+     * 查询单个检查项
+     * @param id
+     * @return
+     */
+    CheckItem find(Integer id);
+
     /**
      * 分页
      * @param queryPageBean

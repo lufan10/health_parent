@@ -33,6 +33,18 @@ public class CheckItemServiceImpl implements CheckItemService {
     }
 
     @Override
+    public void update(CheckItem checkItem) {
+        checkitemmapper.updateById(checkItem);
+    }
+
+    @Override
+    public CheckItem find(Integer id) {
+        CheckItem checkItem = checkitemmapper.selectById(id);
+        return checkItem;
+    }
+
+
+    @Override
     public PageResult getPage(QueryPageBean queryPageBean) {
 
         Integer currentPage = queryPageBean.getCurrentPage();

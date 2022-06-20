@@ -53,6 +53,23 @@ public class CheckItemController{
         return new Result(true,MessageConstant.DELETE_CHECKITEM_SUCCESS);
     }
 
+    @PutMapping
+    public Result update(@RequestBody CheckItem checkItem) {
+        try {
+            checkitemservice.update(checkItem);
+        } catch (Exception e) {
+            e.printStackTrace();
+            new Result(false, MessageConstant.EDIT_CHECKITEM_FAIL);
+        }
+        return new Result(true,MessageConstant.EDIT_CHECKITEM_SUCCESS);
+    }
+
+    @GetMapping("{id}")
+    public Result find(@PathVariable Integer id) {
+        CheckItem checkItem = checkitemservice.find(id);
+        return new Result(true, checkItem);
+    }
+
     /**
      * 检查项之分页查询兼条件查询
      */
