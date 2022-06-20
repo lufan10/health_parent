@@ -296,9 +296,11 @@
                         axios.delete("/checkitem/"+row.id).then((res)=>{
                             //判断当前操作是否成功
                             if(res.data.flag){
-                                this.$message.success("删除成功");
+                                // this.$message.success("删除成功");
+                                this.$message.success(res.data.message);
                             }else {
-                                this.$message.error("数据同步失败，自动刷新");
+                                // this.$message.error("数据同步失败，自动刷新");
+                                this.$message.error(res.data.message);
                             }
                         }).finally(()=>{
                             //2.重新加载数据
