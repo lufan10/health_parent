@@ -1,0 +1,8 @@
+
+//添加数据到mysql数据库中
+POST http://localhost:8082/checkitem/add
+Content-Type: application/json
+
+{}
+###
+DELETE http://localhost:8082/checkitem/92
