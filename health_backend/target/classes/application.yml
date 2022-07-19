@@ -3,6 +3,12 @@ server:
   port: 8082
 
 spring:
+  devtools: #热部署
+    livereload:
+      enabled: true
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: resources/**,static/**,templates/** #重启目录
   dubbo:
     application:
       name: service-consumer
@@ -26,6 +32,14 @@ spring:
       url: jdbc:mysql://localhost:3306/health?serverTimezone=UTC
       username: root
       password: root
+  redis:
+    host: localhost
+    port: 6379
+    password: root
+    client-type: jedis
+    jedis:
+      pool:
+        max-active: 16
 
 logging:  #logback日志输出到文件
   logback:

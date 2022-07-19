@@ -11,23 +11,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00979a9-7321-4a72-84ab-af6279858375" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/health-t_checkgroup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/health_jobs_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/health_jobs_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/noSqlSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/redis-manager-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/src/main/java/com/cn/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/src/main/java/com/cn/controller/CheckGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/src/main/java/com/cn/controller/SetMealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/checkgroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/setmeal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/cn/constant/RedisConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/cn/utils/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/test/java/com/cn/test/QiNiuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/mapper/CheckGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/mapper/SetMealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/service/CheckGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/service/SetMealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/java/com/cn/JobsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/java/com/cn/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/java/com/cn/jobs/ClearImgJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/cn/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/cn/service/impl/CheckGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/cn/service/impl/SetMealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/com/cn/mapper/CheckGroupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/com/cn/mapper/SetMealMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-07-12.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-07-14.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.2022-07-18.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/lufan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/lufan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_backend/src/main/java/com/cn/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/java/com/cn/controller/CheckItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/com/cn/mapper/CheckItemMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_backend/target/classes/com/cn/controller/CheckItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/classes/com/cn/controller/CheckItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/target/classes/com/cn/mapper/CheckItemMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/health_backend/target/classes/static/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/classes/static/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/target/classes/static/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/classes/static/pages/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/cn/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/cn/utils/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/target/classes/com/cn/utils/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/classes/com/cn/utils/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/cn/domain/CheckGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/cn/domain/CheckGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/target/classes/com/cn/domain/CheckGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/classes/com/cn/domain/CheckGroup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_common/target/health_common-1.0-SNAPSHOT-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/health_common-1.0-SNAPSHOT-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_common/target/health_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/health_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/service/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/service/CheckItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_interface/target/classes/com/cn/service/CheckItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/classes/com/cn/service/CheckItemService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_interface/target/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/java/com/cn/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/cn/service/impl/CheckItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service_provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/target/classes/com/cn/service/impl/CheckItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/classes/com/cn/service/impl/CheckItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/server.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +107,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ApElg97W4uGDrPSnjyc2HxFhoS" />
@@ -58,7 +145,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_jobs/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,18 +153,66 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\health_parent\health_jobs\src\main\java\com\cn" />
+      <recent name="C:\health_parent\health_backend\src\main\java\com\cn" />
+      <recent name="C:\health_parent\health_backend\src\main\resources\com\cn\mapper" />
+      <recent name="C:\health_parent\health_backend\src\main\resources\static\pages" />
+      <recent name="C:\health_parent\health_common\src\main\java\com\cn\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cn.config" />
+      <recent name="com.cn.jobs" />
+      <recent name="com.cn" />
+      <recent name="" />
+      <recent name="com.cn.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\health_parent\health_jobs\src\main\resources" />
+      <recent name="C:\health_parent\health_backend\src\main\resources\com\cn\mapper" />
+      <recent name="C:\health_parent\health_service_provider\src\main\resources\com\cn\mapper" />
+      <recent name="C:\health_parent\health_backend\src\main\resources\static\pages" />
       <recent name="C:\health_parent\health_backend" />
-      <recent name="C:\health_parent\health_service_provider" />
-      <recent name="C:\health_parent\health_interface" />
-      <recent name="C:\health_parent\health_common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ControllerApplication">
+  <component name="RunManager" selected="Spring Boot.JobsApplication">
+    <configuration name="QiNiuTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.test.QiNiuTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QiNiuTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.test.QiNiuTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="health_common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.CommonApplication" />
@@ -98,6 +233,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JobsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="health_jobs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.JobsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="health_service_provider" />
       <extension name="coverage">
@@ -113,8 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.JobsApplication" />
         <item itemvalue="Spring Boot.ControllerApplication" />
         <item itemvalue="Spring Boot.ServiceApplication" />
+        <item itemvalue="JUnit.QiNiuTest.test2" />
+        <item itemvalue="JUnit.QiNiuTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +279,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655698278898</updated>
-      <workItem from="1655698280492" duration="8347000" />
+      <workItem from="1655698280492" duration="10877000" />
+      <workItem from="1655713691516" duration="36000" />
+      <workItem from="1655855143865" duration="7220000" />
+      <workItem from="1656723234872" duration="15211000" />
+      <workItem from="1657352996101" duration="1399000" />
+      <workItem from="1657417084471" duration="14130000" />
+      <workItem from="1657587035941" duration="6938000" />
+      <workItem from="1657758915038" duration="6894000" />
+      <workItem from="1658098574931" duration="302000" />
+      <workItem from="1658098948972" duration="4812000" />
+      <workItem from="1658106117034" duration="11347000" />
+      <workItem from="1658124717551" duration="76000" />
+      <workItem from="1658124914546" duration="203000" />
+      <workItem from="1658125183948" duration="91000" />
+      <workItem from="1658125334593" duration="3612000" />
+      <workItem from="1658187849754" duration="7050000" />
     </task>
     <task id="LOCAL-00001" summary="传智项目&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项">
       <created>1655700884840</created>
@@ -144,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655701476735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="传智项目之检查项的增删改查操作&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项&#10;5.修改检查项兼单项查询">
+      <created>1655708419394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655708419394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,80 +333,146 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="传智项目&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项" />
-    <option name="LAST_COMMIT_MESSAGE" value="传智项目&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项" />
+    <MESSAGE value="传智项目之检查项的增删改查操作&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项&#10;5.修改检查项兼单项查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="传智项目之检查项的增删改查操作&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项&#10;5.修改检查项兼单项查询" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="172" y="17" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655707148693">
+    <state x="275" y="22" key="#Deployment" timestamp="1655856909789">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="172" y="17" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1655707148693" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1655706175715">
+    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1655856909789" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1656768435422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1655706175715" />
-    <state x="385" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1655698363409">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1656768435422" />
+    <state x="259" y="9" key="#SSH_Configurations" timestamp="1655856904504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1655698363409" />
+    <state x="259" y="9" key="#SSH_Configurations/0.0.1366.728@0.0.1366.728" timestamp="1655856904504" />
+    <state x="172" y="17" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657453720195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="172" y="17" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1657453720195" />
+    <state x="491" y="77" width="757" height="627" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1656768412342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="77" width="757" height="627" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1656768412342" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1658105587098">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1658105587098" />
+    <state x="385" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1658192474120">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="33" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1658192474120" />
+    <state width="386" height="438" key="DebuggerActiveHint" timestamp="1658111411033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="386" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1658111411033" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1655713726825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1655713726825" />
     <state x="466" y="283" key="Github.CreateGistDialog" timestamp="1655706889106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="283" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1655706889106" />
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.0.bottom" timestamp="1658197826097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
-    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658197826097" />
+    <state width="1323" height="219" key="GridCell.Tab.0.center" timestamp="1658197826097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
-    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1655707973736">
+    <state width="1323" height="219" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1658197826097" />
+    <state width="1323" height="219" key="GridCell.Tab.0.left" timestamp="1658197826097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1655707973736" />
-    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1658197826097" />
+    <state width="1323" height="219" key="GridCell.Tab.0.right" timestamp="1658197826097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
-    <state width="1323" height="239" key="GridCell.Tab.1.bottom" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1658197826097" />
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom" timestamp="1658197826098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
-    <state width="1323" height="239" key="GridCell.Tab.1.center" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658197826098" />
+    <state width="1323" height="219" key="GridCell.Tab.1.center" timestamp="1658197826098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
-    <state width="1323" height="239" key="GridCell.Tab.1.left" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1658197826098" />
+    <state width="1323" height="219" key="GridCell.Tab.1.left" timestamp="1658197826098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
-    <state width="1323" height="239" key="GridCell.Tab.1.right" timestamp="1655707973737">
+    <state width="1323" height="219" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1658197826098" />
+    <state width="1323" height="219" key="GridCell.Tab.1.right" timestamp="1658197826098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1655707973737" />
+    <state width="1323" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1658197826098" />
+    <state width="1077" height="241" key="GridCell.Tab.2.bottom" timestamp="1658111483482">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1077" height="241" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1658111483482" />
+    <state width="1077" height="241" key="GridCell.Tab.2.center" timestamp="1658111483481">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1077" height="241" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1658111483481" />
+    <state width="1077" height="241" key="GridCell.Tab.2.left" timestamp="1658111483481">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1077" height="241" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1658111483481" />
+    <state width="1077" height="241" key="GridCell.Tab.2.right" timestamp="1658111483482">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1077" height="241" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1658111483482" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1655707155490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1655707155490" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1655698820989">
+    <state x="218" y="123" key="IDE.errors.dialog" timestamp="1658128048448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1655698820989" />
-    <state width="498" height="498" key="SwitcherDM" timestamp="1655705971329">
+    <state x="218" y="123" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1658128048448" />
+    <state x="269" y="6" key="Maven.ArtifactSearchDialog" timestamp="1657766373301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="498" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1655705971329" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655701509227">
+    <state x="269" y="6" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1657766373301" />
+    <state x="254" y="178" key="Registry" timestamp="1656762058464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655701509227" />
-    <state x="374" y="34" width="992" height="637" key="new project wizard" timestamp="1655698852736">
+    <state x="254" y="178" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1656762058464" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1658126028095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="374" y="34" width="992" height="637" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1655698852736" />
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1658126028095" />
+    <state width="498" height="498" key="SwitcherDM" timestamp="1658192761240">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="498" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1658192761240" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1655708451897">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1655708451897" />
+    <state width="568" height="347" key="XDebugger.FullValuePopup" timestamp="1658111411025">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="568" height="347" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1658111411025" />
+    <state x="498" y="170" width="370" height="351" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1657422024146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="498" y="170" width="370" height="351" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728@0.0.1366.728" timestamp="1657422024146" />
+    <state x="759" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1658106160145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="759" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1658106160145" />
+    <state x="374" y="34" width="992" height="637" key="new project wizard" timestamp="1658192417727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="374" y="34" width="992" height="637" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1658192417727" />
   </component>
 </project>

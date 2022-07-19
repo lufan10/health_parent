@@ -4,6 +4,8 @@ import com.cn.domain.CheckItem;
 import com.cn.utils.PageResult;
 import com.cn.utils.QueryPageBean;
 
+import java.util.List;
+
 public interface CheckItemService {
 
     /**
@@ -37,4 +39,6 @@ public interface CheckItemService {
      * @return
      */
     PageResult getPage(QueryPageBean queryPageBean);
+
+    List<CheckItem> getAll();
 }

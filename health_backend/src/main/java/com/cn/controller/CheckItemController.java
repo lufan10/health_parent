@@ -11,6 +11,7 @@ import com.cn.utils.Result;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 
 /**
@@ -73,9 +74,22 @@ public class CheckItemController{
     /**
      * 检查项之分页查询兼条件查询
      */
-    @RequestMapping("findPage")
+    @RequestMapping("/findPage")
     public PageResult getPage(@RequestBody QueryPageBean queryPageBean) {
         return checkitemservice.getPage(queryPageBean);
+    }
+
+    @GetMapping
+    public Result findAll() {
+
+        try {
+            List<CheckItem> list = checkitemservice.getAll();
+            return new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,list );
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(true,MessageConstant.QUERY_CHECKITEM_FAIL);
+
+        }
     }
 
 }

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="health_interface" />
         <module name="health_service_provider" />
+        <module name="health_jobs" />
         <module name="health_common" />
         <module name="health_backend" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="health_backend" target="12" />
       <module name="health_common" target="12" />
       <module name="health_interface" target="12" />
+      <module name="health_jobs" target="12" />
       <module name="health_parent" target="12" />
       <module name="health_service_provider" target="12" />
     </bytecodeTargetLevel>
@@ -26,6 +28,7 @@
       <module name="health_backend" options="-parameters" />
       <module name="health_common" options="-parameters" />
       <module name="health_interface" options="-parameters" />
+      <module name="health_jobs" options="-parameters" />
       <module name="health_service_provider" options="-parameters" />
     </option>
   </component>

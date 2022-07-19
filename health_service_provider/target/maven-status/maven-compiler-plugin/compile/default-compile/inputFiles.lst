@@ -1,2 +1,5 @@
 C:\health_parent\health_service_provider\src\main\java\com\cn\ServiceApplication.java
+C:\health_parent\health_service_provider\src\main\java\com\cn\service\impl\SetMealServiceImpl.java
+C:\health_parent\health_service_provider\src\main\java\com\cn\config\RedisConfig.java
 C:\health_parent\health_service_provider\src\main\java\com\cn\service\impl\CheckItemServiceImpl.java
+C:\health_parent\health_service_provider\src\main\java\com\cn\service\impl\CheckGroupServiceImpl.java

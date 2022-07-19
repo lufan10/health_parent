@@ -58,4 +58,10 @@ public class CheckItemServiceImpl implements CheckItemService {
         return new PageResult(total, rows);
     }
 
+    @Override
+    public List<CheckItem> getAll() {
+        List<CheckItem> checkItems = checkitemmapper.selectList(null);
+        return checkItems;
+    }
+
 }

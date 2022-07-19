@@ -1,0 +1,71 @@
+# 强烈警告：注意yml文件的格式书写形式
+server:
+  port: 8083
+
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: resources/**,static/**,templates/** #重启目录
+  dubbo:
+    application:
+      name: health_service_provider
+    base-package: com.cn.service # dubbo服务发布者所在的包
+    registry:
+      address: localhost # zookeeper注册中心的地址
+      port: 2181       # zookeeper注册中心的端口
+      protocol: zookeeper
+      register: true
+    protocol: #暴露服务的端口，默认端口20880
+      name: dubbo
+      port: 20880
+      accesslog: true
+    provider:
+      retries: 1
+      delay: -1
+
+  datasource: #数据源连接参数
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/health?serverTimezone=UTC
+      username: root
+      password: root
+  redis:
+    host: localhost
+    port: 6379
+    password: root
+    client-type: jedis
+    jedis:
+      pool:
+        max-active: 16
+logging:  #logback日志输出到文件
+  logback:
+    rollingpolicy:
+      max-file-size: 1MB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+  file:
+    name: server.log #输出位置：C:\项目目录\server.log
+
+pagehelper: #mybatis分页助手
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+  page-size-zero: false
+
+mybatis-plus:
+  mapper-locations: classpath*:com/cn/mapper/*Mapper.xml #指定mapper映射文件路径
+  type-aliases-package: com.cn.domain  #扫描实体类别名包路径
+
+  configuration:
+#    map-underscore-to-camel-case: false #关闭自动驼峰映射
+    cache-enabled: false #关闭缓存
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印MP日志,上线时关闭该配置
+
+  global-config:
+    db-config:
+      id-type: auto #全局默认主键类型
+      #注意：当表名本身有语法错误时，需要在对应实体类上加@TableName("表名")的注解，以解决表名映射错误)
+      table-prefix: t_ #表名前缀，数据库表名与实体类名不一致时采用
