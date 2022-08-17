@@ -4,10 +4,13 @@
       <w>axios</w>
       <w>checkgroup</w>
       <w>checkitem</w>
+      <w>dayobject</w>
       <w>dubbo</w>
       <w>elementui</w>
       <w>extention</w>
+      <w>ordersetting</w>
       <w>setmeal</w>
+      <w>xlsx</w>
     </words>
   </dictionary>
 </component>

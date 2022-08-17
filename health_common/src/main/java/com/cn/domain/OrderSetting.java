@@ -1,11 +1,15 @@
 package com.cn.domain;
 
+import com.alibaba.excel.annotation.ExcelProperty;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 import java.util.Date;
 
 /**
  * 预约设置
  */
+@TableName(value = "t_ordersetting")
 public class OrderSetting implements Serializable{
     private Integer id ;
     private Date orderDate;//预约设置日期

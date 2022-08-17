@@ -98,12 +98,4 @@ public class SetMealController {
             return new Result(true,MessageConstant.QUERY_CHECKGROUP_FAIL);
         }
     }
-
-
-
-
-
-
-
-
 }
