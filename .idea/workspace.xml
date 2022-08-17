@@ -26,11 +26,19 @@
       <change afterPath="$PROJECT_DIR$/health_backend/src/main/java/com/cn/controller/OrderSettingController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/pages/ordersetting.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_backend/src/main/resources/static/template/ordersetting_template.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/target/classes/com/cn/controller/OrderSettingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/target/classes/static/pages/ordersetting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_backend/target/classes/static/template/ordersetting_template.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/cn/utils/POIUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/target/classes/com/cn/utils/POIUtils.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/mapper/OrderSettingMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/com/cn/service/OrderSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_interface/target/classes/com/cn/mapper/OrderSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_interface/target/classes/com/cn/service/OrderSettingService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/com/cn/service/impl/OrderSettingServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/com/cn/mapper/OrderSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/target/classes/com/cn/mapper/OrderSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service_provider/target/classes/com/cn/service/impl/OrderSettingServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.2022-07-19.0.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.2022-07-20.0.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.2022-07-20.3.log" afterDir="false" />
@@ -231,6 +239,7 @@
       <workItem from="1658400364195" duration="3786000" />
       <workItem from="1658450847387" duration="4230000" />
       <workItem from="1660128139270" duration="906000" />
+      <workItem from="1660778590081" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="传智项目&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项">
       <created>1655700884840</created>
@@ -295,7 +304,8 @@
     <MESSAGE value="传智项目&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项" />
     <MESSAGE value="传智项目之检查项的增删改查操作&#10;1.基础环境搭建&#10;2.新增检查项&#10;3.检查项之分页查询兼条件查询&#10;4.删除检查项&#10;5.修改检查项兼单项查询" />
     <MESSAGE value="实现检查组、体检套餐、图片文件上传和垃圾图片定时清理功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现检查组、体检套餐、图片文件上传和垃圾图片定时清理功能" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1655856909789">
